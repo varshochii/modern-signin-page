@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up-page</title>
+
+    <!--------- font awesome ---------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!--------- custom css link ---------->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <section class="sign-up">
+
+         <div class="bg-video">
+             <div class="content">
+                 <h1>
+                    Welcome to <br>
+                    Vm Coding
+                 </h1>
+                 <button class="btn" id="form-open-btn">
+                     Sign Up
+                 </button>
+             </div>
+ 
+             <video src="bg-video.mp4" autoplay loop muted></video>
+         </div>
+
+         <div class="sign-up-form">
+            <form>
+                <div class="input-wrap">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="input-wrap">
+                    <label for="mail">Email Address</label>
+                    <input type="email" name="mail" required>
+                </div>
+                <div class="age">
+                    <small>I am over 13 years of age</small>
+                    <div>
+                        <small>No</small>
+                        <div class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </div>
+                        <small>Yes</small>
+                    </div>
+                </div>
+                <button type="submit" class="btn">
+                    Sign Me Up!
+                </button>
+            </form>
+            <button class="close">
+                 <span class="fas fa-times"></span>
+            </button>
+         </div>
+
+    </section>
+
+
+
+    <!------- custom js -------->
+    <script src="./script.js"></script>
+    
+</body>
+</html>
